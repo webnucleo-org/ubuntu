@@ -18,6 +18,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
 	libxslt1-dev \
 	make subversion \
         python3-pip \
+	texlive-latex-extra \
 	valgrind \
 	vim \
 	wget \
