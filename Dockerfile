@@ -8,8 +8,10 @@ RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
 	g++ \
 	gfortran \
 	git \
+        graphviz \
 	gsl-bin \
 	libboost-all-dev \
+        libgraphviz-dev \
 	libgsl-dev \
 	libhdf5-serial-dev \
 	libxml2 \
