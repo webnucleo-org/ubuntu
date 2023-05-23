@@ -3,6 +3,7 @@ MAINTAINER webnucleo.org
 
 RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
       && apt-get install -y \
+        curl \
 	dot2tex \
 	gcc \
 	g++ \
