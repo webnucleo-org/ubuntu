@@ -12,6 +12,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && apt-get update \
         graphviz \
 	gsl-bin \
 	libboost-all-dev \
+        libeigen3-dev \
         libgraphviz-dev \
 	libgsl-dev \
 	libhdf5-serial-dev \
